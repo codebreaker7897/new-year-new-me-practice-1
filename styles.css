@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+body{
+     font-family: "Work Sans", sans-serif;
+}
+
+.banner{
+    padding-top: 256px;
+    background: url("./images/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+#banner-text{
+    margin-right: 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+}
+#banner-text h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #ffff;
+    margin-bottom: 24px;
+    max-width: 556px;
+    text-align: right;
+}
+ #banner-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffff;
+    line-height: 26px;
+    margin-bottom: 32px;
+    text-align: right;
+    max-width: 494px;
+}
+ #banner-text .btn{
+    display: flex;
+    justify-content: flex-end;
+}
+ #banner-text .btn button{
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 166px;
+}
+
+#about{
+    margin-top: 131px;
+}
+#about .container{
+     max-width: 1278px;
+     margin: 0 auto;
+}
+#about .container .about-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 87px;
+}
+#about .container .about-wrapper .about-tex h1{
+    font-size: 40px;
+    font-weight: 700px;
+    color: #151414;
+    margin-bottom: 24px;
+    max-width: 288px;
+}
+#about .container .about-wrapper .about-tex p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #151414;
+    line-height: 26px;
+    margin-bottom: 16px;
+    max-width: 416px;
+}
+.about-wrapper .about-tex ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #151414;
+    margin-bottom: 8px;
+
+}
+.about-wrapper .about-tex ul li::before{
+    content: "✔";
+    color: #16D887;
+    font-size: 22px;
+    margin-right: 10px;
+}
+#skill{
+    margin-top: 130px;
+}
+#skill .container{
+    max-width: 1278px;
+    margin: 0 auto;
+}
+#skill .container h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#skill .container .about-skill{
+    display: flex;
+    justify-content: space-between;
+    gap: 86px;
+}
+.about-skill .all-skill{
+    max-width: 214px;
+    text-align: center;
+}
+.about-skill .all-skill h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin: 16px 0;
+}
+.about-skill .all-skill p{
+    font-size: 25px;
+    font-weight: 400;
+    color: #151414;
+
+}
+#banner-two{
+    margin-top: 135px;
+}
+#banner-two .container{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.banner-two-wrapper{
+    background: url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 59px 617px 0 64px;
+    height: 300px;
+}
+.banner-two-wrapper h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-top: 69px 0 0 64px;
+    margin-bottom: 24px;
+}
+.banner-two-wrapper .button{
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    background: #FFFFFF;
+    padding: 21px 36px;
+    border: none;
+    border-radius: 5px;
+    /* margin-bottom: 69px; */
+}
